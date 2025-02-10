@@ -51,7 +51,7 @@ const Login = ({  openRegisterModal,closeLoginModal }) => {
 
     try {
       const response = await axios.post(
-        "https://upto-skills.onrender.com/api/auth/login",
+        // "https://upto-skills.onrender.com/api/auth/login",
         {
           email,
           password,
