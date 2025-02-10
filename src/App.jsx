@@ -1,13 +1,17 @@
 import './App.css'
-import EVParameters from './Components/EVParameters'
+// import Demo from './Components/Demo'
+import Login from './Components/Login'
+import Register from './Components/Register'
+
 
 
 function App() {
 
   return (
     <>
-    <h2 className='font-bold text-3xl flex justify-center p-5'>I have use tailwind CSS</h2>
-      <EVParameters/>
+      <Login />
+      <Register />
+      {/* <Demo/> */}
     </>
   )
 }
